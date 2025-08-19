@@ -94,11 +94,11 @@ Mitigations:
 ##### SaaS vs On-prem Solution
 Feature | SaaS | On-prem
 --- | --- | ---
-Tech Support |  Easy | Difficult
+Manageability & Tech Support |  Easy | Difficult
 Firewall issues  |  If infra dont allow inbound connections, need to have jumpbox or switch to Pull strategy | Minimal
 Setup / Customer on-boarding | Easy |  Difficult
 
-
+SaaS solution was chosen for Manageability and ease of setup and custome on-boarding.
 
 
 ### Communication Mechanisms
