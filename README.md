@@ -136,44 +136,44 @@ The communication mechanism is mainly using Push strategy
 #### Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/dashboard.png" width="320"/>
-    <figcaption>Dashboard</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;"> Dashboard</figcaption>
   </figure>
 
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/project-details.png" width="320"/>
-    <figcaption>Projects</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;">Projects</figcaption>
   </figure>
 
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/inventories.png" width="320"/>
-    <figcaption>Inventories</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;">Inventories</figcaption>
   </figure>
 
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/infra-topology-view.png" width="320"/>
-    <figcaption>Topology View</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;">Topology View</figcaption>
   </figure>
 
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/schedules.png" width="320"/>
-    <figcaption>Schedules</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;">Schedules</figcaption>
   </figure>
 
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/notifiers.png" width="320"/>
-    <figcaption>Notifiers</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;">Notifiers</figcaption>
   </figure>
 
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/credentials.png" width="320"/>
-    <figcaption>Credentials</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;">Credentials</figcaption>
   </figure>
 
-  <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+  <figure>
     <img src="./screenshots/access-mngmt-roles.png" width="320"/>
-    <figcaption>RBAC</figcaption>
+    <figcaption style="text-align: center; margin-top: 5px;">RBAC</figcaption>
   </figure>
 
 </div>
