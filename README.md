@@ -135,6 +135,45 @@ The communication mechanism is mainly using Push strategy
 
 #### Screenshots
 
-<!-- <img src="./screenshots/dashboard.png" alt="Home Page" style="width: 460px;"> -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <figure>
+    <img src="./screenshots/dashboard.png" width="320"/>
+    <figcaption>Dashboard</figcaption>
+  </figure>
 
-![Dashboard](./screenshots/dashboard.png) ![Topology View](./screenshots/infra-topology-view.png) ![Inventories](./screenshots/inventories.png) ![Notifiers](./screenshots/notifiers.png) ![Schedules](./screenshots/schedules.png) ![Projects](./screenshots/project-details.png) ![Credentials](./screenshots/credentials.png) ![RBAC](./screenshots/access-mngmt-roles.png)
+  <figure>
+    <img src="./screenshots/project-details.png" width="320"/>
+    <figcaption>Projects</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./screenshots/inventories.png" width="320"/>
+    <figcaption>Inventories</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./screenshots/infra-topology-view.png" width="320"/>
+    <figcaption>Topology View</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./screenshots/schedules.png" width="320"/>
+    <figcaption>Schedules</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./screenshots/notifiers.png" width="320"/>
+    <figcaption>Notifiers</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./screenshots/credentials.png" width="320"/>
+    <figcaption>Credentials</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./screenshots/access-mngmt-roles.png" width="320"/>
+    <figcaption>RBAC</figcaption>
+  </figure>
+
+</div>
