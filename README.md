@@ -137,42 +137,42 @@ The communication mechanism is mainly using Push strategy
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
   <figure>
-    <figcaption> Dashboard</figcaption><br/>
+    <figcaption> Dashboard</figcaption>
     <img src="./screenshots/dashboard.png" width="320"/>
   </figure>
 
   <figure>
-    <figcaption>Projects</figcaption><br/>
+    <figcaption>Projects</figcaption>
     <img src="./screenshots/project-details.png" width="320"/>
   </figure>
 
   <figure>
-    <figcaption>Inventories</figcaption><br/>
+    <figcaption>Inventories</figcaption>
     <img src="./screenshots/inventories.png" width="320"/>
   </figure>
 
   <figure>
-    <figcaption>Topology</figcaption><br/>
+    <figcaption>Topology</figcaption>
     <img src="./screenshots/infra-topology-view.png" width="320"/>
   </figure>
 
   <figure>
-    <figcaption>Schedules</figcaption><br/>
+    <figcaption>Schedules</figcaption>
     <img src="./screenshots/schedules.png" width="320"/>
   </figure>
 
   <figure>
-    <figcaption>Notifiers</figcaption><br/>
+    <figcaption>Notifiers</figcaption>
     <img src="./screenshots/notifiers.png" width="320"/>
   </figure>
 
   <figure>
-    <figcaption>Credentials</figcaption><br/>
+    <figcaption>Credentials</figcaption>
     <img src="./screenshots/credentials.png" width="320"/>
   </figure>
 
   <figure>
-    <figcaption>RBAC</figcaption><br/>
+    <figcaption>RBAC</figcaption>
     <img src="./screenshots/access-mngmt-roles.png" width="320"/>
   </figure>
 
