@@ -102,6 +102,15 @@ The communication mechanism is mainly using Push strategy
 - When number of managed nodes increases, scale Execution nodes and/or the AWX server
 
 
+### Proof-of-Concept
+- Pre-requsites: Docker, Ansible,
+- Clone https://github.com/ansible/awx
+- Commands:
+- `make docker-compose-build`
+- `make create-ui ui`
+- `make docker-compose`
+
+
 
 
 
