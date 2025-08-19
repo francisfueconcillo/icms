@@ -15,6 +15,7 @@ Infrastructure Configuration Management System
   - [Security](#security)
   - [Scalability and Extensibility](#scalability-and-extensibility)
   - [Proof-of-Concept](#proof-of-concept)
+    - [Screenshots](#screenshots)
 
 
 ### Solution Overview
@@ -132,9 +133,8 @@ The communication mechanism is mainly using Push strategy
 - REST API is accessible in `https://localhost:8043/api/v2`
 
 
+#### Screenshots
 
+<!-- <img src="./screenshots/dashboard.png" alt="Home Page" style="width: 460px;"> -->
 
-
-
-
-
+![Dashboard](./screenshots/dashboard.png) ![Topology View](./screenshots/infra-topology-view.png) ![Inventories](./screenshots/inventories.png) ![Notifiers](./screenshots/notifiers.png) ![Schedules](./screenshots/schedules.png) ![Projects](./screenshots/project-details.png) ![Credentials](./screenshots/credentials.png) ![RBAC](./screenshots/access-mngmt-roles.png)
