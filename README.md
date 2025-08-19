@@ -19,7 +19,7 @@ Infrastructure Configuration Management System
 
 ### Solution Overview
 
-<img src="./icms.drawio.png" alt="Home Page" style="width: 720px;">
+<img src="./icms.drawio.png" alt="Home Page" style="width: 860px;">
 
 The Infrastructure Configuration Management System is a SaaS solution that provides a unified solution to manage and maintain service configurations across multiple servers for various clients.
 
