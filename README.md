@@ -112,9 +112,9 @@ The communication mechanism is mainly using Push strategy
 
 
 ### Security
-- Identity Providers can be integrated for Authentication
-- 2FA can be integrated with the identity provider
-- RBAC control is provided by AWX
+- Identity Providers can be integrated for Authentication. 2FA can be enabled in identity provider
+- RBAC control is provided by AWX with user groups
+- All communication are encrypted and TLS-enabled
 
 
 ### Scalability and Extensibility
