@@ -128,6 +128,8 @@ The communication mechanism is mainly using Push strategy
 - `make docker-compose-build`
 - `make create-ui ui`
 - `make docker-compose`
+- UI is accessible in `https://localhost:8043` - check the `admin` password in the console logs
+- REST API is accessible in `https://localhost:8043/api/v2`
 
 
 
