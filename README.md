@@ -138,42 +138,42 @@ The communication mechanism is mainly using Push strategy
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
   <figure>
     <img src="./screenshots/dashboard.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;"> Dashboard</figcaption>
+    <figcaption> Dashboard</figcaption>
   </figure>
 
   <figure>
     <img src="./screenshots/project-details.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;">Projects</figcaption>
+    <figcaption>Projects</figcaption>
   </figure>
 
   <figure>
     <img src="./screenshots/inventories.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;">Inventories</figcaption>
+    <figcaption>Inventories</figcaption>
   </figure>
 
   <figure>
     <img src="./screenshots/infra-topology-view.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;">Topology View</figcaption>
+    <figcaption>Topology</figcaption>
   </figure>
 
   <figure>
     <img src="./screenshots/schedules.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;">Schedules</figcaption>
+    <figcaption>Schedules</figcaption>
   </figure>
 
   <figure>
     <img src="./screenshots/notifiers.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;">Notifiers</figcaption>
+    <figcaption>Notifiers</figcaption>
   </figure>
 
   <figure>
     <img src="./screenshots/credentials.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;">Credentials</figcaption>
+    <figcaption>Credentials</figcaption>
   </figure>
 
   <figure>
     <img src="./screenshots/access-mngmt-roles.png" width="320"/>
-    <figcaption style="text-align: center; margin-top: 5px;">RBAC</figcaption>
+    <figcaption>RBAC</figcaption>
   </figure>
 
 </div>
