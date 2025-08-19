@@ -1,6 +1,21 @@
 ## ICMS
 Infrastructure Configuration Management System
 
+## Table of Contents
+- [ICMS](#icms)
+- [Table of Contents](#table-of-contents)
+  - [Solution Overview](#solution-overview)
+    - [Internal Components](#internal-components)
+    - [External Components](#external-components)
+    - [Technology Stack](#technology-stack)
+    - [Design Considerations](#design-considerations)
+      - [Ansible AWX vs Puppet Enterprise](#ansible-awx-vs-puppet-enterprise)
+      - [SaaS vs On-prem Solution](#saas-vs-on-prem-solution)
+  - [Communication Mechanisms](#communication-mechanisms)
+  - [Security](#security)
+  - [Scalability and Extensibility](#scalability-and-extensibility)
+  - [Proof-of-Concept](#proof-of-concept)
+
 
 ### Solution Overview
 
@@ -45,6 +60,10 @@ Key Features:
 - Hashicorp Vault to store secrets
 - Customer Infrastructure (on-prem or cloud)
 
+#### Technology Stack
+- Ansible
+- Web UI (React, Django)
+- REST API (Django)
 
 #### Design Considerations
 ##### Ansible AWX vs Puppet Enterprise
@@ -72,11 +91,13 @@ Mitigations:
 - Have scheduled tasks to runs Ansible playbooks periodically, like every 15 minutes. If drifts occur, need to check file information when it changed and corelate logs to identify who changed.
 
 
+##### SaaS vs On-prem Solution
+Feature | SaaS | On-prem
+--- | --- | ---
+Tech Support |  Easy | Difficult
+Firewall issues  |  If infra dont allow inbound connections, need to have jumpbox or switch to Pull strategy | Minimal
+Setup / Customer on-boarding | Easy |  Difficult
 
-#### Technology Stack
-- Ansible
-- Web UI (React, Django)
-- REST API (Django)
 
 
 
@@ -85,11 +106,9 @@ The communication mechanism is mainly using Push strategy
 - SSH
 - HTTPS (WinRM)
 - All communications must be encrypted (TLS)
-
-#### Firewalled Customer Infra
-- For managed nodes that does not allow inbound connections, setup a Jumpbox that can:
-- proxy the ssh command to target nodes (for Linux)
-- port-forward WinRM ports to target nodes
+- For infrastructure that does not allow inbound connections to managed nodes, setup a Jumpbox that can:
+  - proxy the ssh command to target nodes (for Linux)
+  - port-forward WinRM ports to target nodes (For Windows)
 
 
 ### Security
